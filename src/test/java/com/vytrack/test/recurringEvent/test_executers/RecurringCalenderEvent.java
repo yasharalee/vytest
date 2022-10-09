@@ -32,7 +32,7 @@ public class RecurringCalenderEvent {
     @Test (dataProvider =  "credentials")
     public void testLogin1(String[] str) throws InterruptedException {
         LoginMethod.Login(driver, str[0], str[1]);
-        Recurring.recurring(driver, str[0].substring(0,4));
+        Recurring.recurring(driver);
 
     }
 }

@@ -8,7 +8,7 @@ import org.testng.Assert;
 
 public class Recurring {
 
-    public static void recurring(WebDriver driver, String role) throws InterruptedException {
+    public static void recurring(WebDriver driver) throws InterruptedException {
 
         driver.findElement(By.xpath("//a//span[contains(text(),'Activities')]")).click();
         driver.findElement(By.xpath("(//span[contains(text(),'Calendar Events')])")).click();
